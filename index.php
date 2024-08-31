@@ -64,6 +64,8 @@ function validate_form(): array
   return ['errors' => $errors, 'input' => $input];
 }
 
+//some comments
+
 function process_form(array $input): array
 {
   global $db;
