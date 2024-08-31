@@ -1,0 +1,17 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: darkslategray;
+}
+
+.spicy-switcher {
+  height: 20px;
+  width: 45px !important;
+}
+
+
