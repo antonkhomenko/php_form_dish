@@ -1,11 +1,10 @@
 <?php
 
+require_once "config.php";
+
 require "inc/header.php";
 
-
-$dsn = "mysql:host=localhost;dbname=test";
-$db_username = 'root';
-$db_password = '130214';
+$dsn = "mysql:host=$host;dbname=$dbname";
 
 try {
   $db = new PDO($dsn, $db_username, $db_password);
